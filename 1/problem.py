@@ -47,8 +47,8 @@ class Solution:
         for i in range(len(costs[0])):
              min_cost = _dfs(0,-1,i)
              results = min(results, min_cost)     
-        print('memo', memo)
-        print('results', results)
+        # print('memo', memo)
+        # print('results', results)
         return results
          
 
